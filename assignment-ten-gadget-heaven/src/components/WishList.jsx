@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { getToWishList, removeToWishList } from '../utility';
 import { CiCircleRemove } from "react-icons/ci";
 import { useLocation } from 'react-router-dom';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const WishList = () => {
     const [wish, setWish] = useState([]);
@@ -21,6 +22,9 @@ const WishList = () => {
 
     return (
         <>
+        <Helmet>
+            <title>WishList | Gadget Heaven</title>
+        </Helmet>
             {
                 wish.map((item, index) => (
                     <div key={index} className="hero">

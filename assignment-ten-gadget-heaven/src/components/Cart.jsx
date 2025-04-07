@@ -4,6 +4,7 @@ import { getToItem, removeCard } from '../utility';
 import { TbAdjustments } from "react-icons/tb";
 import { FcApproval } from "react-icons/fc";
 import { CiCircleRemove } from "react-icons/ci";
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 
 const Cart = () => {
@@ -49,6 +50,9 @@ const Cart = () => {
     // const { description, price, product_image, product_title } = productItem;
     return (
         <>
+        <Helmet>
+            <title>Cart | Gadget Heaven</title>
+        </Helmet>
             <div className='flex justify-around my-12'>
                 <div className='font-bold text-xl'>Cart</div>
                 <div className='flex gap-5 items-center'>

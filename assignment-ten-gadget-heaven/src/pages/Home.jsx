@@ -2,12 +2,17 @@ import React from 'react';
 import Banner from '../components/Banner';
 import Categories from '../components/Categories';
 import { Outlet, useLoaderData } from 'react-router-dom';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
+
 
 const Home = () => {
     const categoriesData = useLoaderData();
     // console.log(categoriesData)
     return (
         <div>
+            <Helmet>
+                <title>Gadget Heaven</title>
+            </Helmet>
             {/* Banner Section */}
             <Banner
                 title={'Upgrade Your Tech Accessorize with Gadget Heaven Accessories'}
