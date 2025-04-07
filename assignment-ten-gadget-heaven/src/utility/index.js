@@ -26,7 +26,11 @@ const addToCard = (product) => {
 };
 
 // Remove Card LocalStorage
-const removeCard = () => {
+const removeCard = (id) => {
+    const removeLocalData = getToItem();
+    const remainingData = removeLocalData.filter(item => item.id != id);
+    localStorage.setItem('cardItem', JSON.stringify(remainingData))
+    toast.success('Successfully removed!');
 
 
 };
@@ -59,4 +63,4 @@ const removeToWishList = () => {
 
 
 
-export { addToCard, getToItem, addToWishList, getToWishList };
+export { addToCard, getToItem, addToWishList, getToWishList, removeCard };
