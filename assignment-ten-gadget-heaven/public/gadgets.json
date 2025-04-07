@@ -1,0 +1,172 @@
+[
+  {
+    "id": 1,
+    "product_title": "Apple iPhone 15 Pro Max",
+    "product_image": "https://i.ibb.co.com/Kj6MzHrg/download.jpg",
+    "category": "Smartphones",
+    "price": 1299,
+    "description": "Experience the ultimate smartphone with the iPhone 15 Pro Max.",
+    "specification": [
+      "6.7-inch Super Retina XDR display",
+      "A17 Bionic chip",
+      "Triple-camera system (48MP Main, 12MP Telephoto, 12MP Ultrawide)",
+      "LiDAR Scanner",
+      "Up to 2TB storage"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "id": 2,
+    "product_title": "Samsung Galaxy S23 Ultra",
+    "product_image": "https://i.ibb.co.com/Y4vpwMt7/images.jpg",
+    "category": "Smartphones",
+    "price": 1199,
+    "description": "Galaxy S23 Ultra with an advanced 200MP camera and S Pen.",
+    "specification": [
+      "6.8-inch Dynamic AMOLED 2X display",
+      "Snapdragon 8 Gen 2",
+      "200MP Main Camera",
+      "S Pen Support",
+      "Up to 1TB storage"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "id": 3,
+    "product_title": "Google Pixel 7 Pro",
+    "product_image": "https://i.ibb.co.com/gXWWd83/images.jpg",
+    "category": "Smartphones",
+    "price": 899,
+    "description": "Google’s flagship phone with AI-powered photography.",
+    "specification": [
+      "6.7-inch LTPO AMOLED display",
+      "Google Tensor G2 chip",
+      "50MP Main Camera",
+      "Titan M2 Security chip",
+      "Up to 512GB storage"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "id": 4,
+    "product_title": "OnePlus 11 5G",
+    "product_image": "https://i.ibb.co.com/tTLMJ3Xd/download.jpg",
+    "category": "Smartphones",
+    "price": 699,
+    "description": "Fast and smooth performance with Hasselblad Camera.",
+    "specification": [
+      "6.7-inch AMOLED display",
+      "Snapdragon 8 Gen 2",
+      "50MP Hasselblad Camera",
+      "100W Fast Charging",
+      "Up to 256GB storage"
+    ],
+    "availability": true,
+    "rating": 4.5
+  },
+  {
+    "id": 5,
+    "product_title": "Xiaomi 13 Pro",
+    "product_image": "https://i.ibb.co.com/Mxz4Y5Bn/download.jpg",
+    "category": "Smartphones",
+    "price": 1099,
+    "description": "Premium build with Leica cameras and flagship performance.",
+    "specification": [
+      "6.73-inch AMOLED display",
+      "Snapdragon 8 Gen 2",
+      "Leica 50MP triple cameras",
+      "120W HyperCharge",
+      "Up to 512GB storage"
+    ],
+    "availability": true,
+    "rating": 4.7
+  },
+  {
+    "id": 6,
+    "product_title": "Sony Xperia 1 V",
+    "product_image": "https://i.ibb.co.com/Lz23jGL0/download.jpg",
+    "category": "Smartphones",
+    "price": 1299,
+    "description": "Professional-grade camera experience in a smartphone.",
+    "specification": [
+      "6.5-inch 4K OLED display",
+      "Snapdragon 8 Gen 2",
+      "Triple 12MP cameras with ZEISS optics",
+      "IP68 Water resistance",
+      "Up to 512GB storage"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "id": 7,
+    "product_title": "MacBook Pro 14-inch",
+    "product_image": "https://i.ibb.co.com/fV0n6WrW/images.jpg",
+    "category": "Laptops",
+    "price": 1999,
+    "description": "Powerful MacBook Pro with M2 Pro chip.",
+    "specification": [
+      "14.2-inch Liquid Retina XDR display",
+      "M2 Pro chip",
+      "16GB RAM, 512GB SSD",
+      "Up to 18 hours battery life",
+      "Magic Keyboard with Touch ID"
+    ],
+    "availability": true,
+    "rating": 4.9
+  },
+  {
+    "id": 8,
+    "product_title": "Dell XPS 15",
+    "product_image": "https://i.ibb.co.com/C4RW1QF/download.jpg",
+    "category": "Laptops",
+    "price": 1799,
+    "description": "Ultra-premium laptop with 4K display and powerful performance.",
+    "specification": [
+      "15.6-inch OLED 4K display",
+      "Intel Core i7 13th Gen",
+      "32GB RAM, 1TB SSD",
+      "NVIDIA RTX 4070",
+      "Premium aluminum build"
+    ],
+    "availability": true,
+    "rating": 4.8
+  },
+  {
+    "id": 9,
+    "product_title": "Sony WH-1000XM5",
+    "product_image": "https://i.ibb.co.com/cSP9vG0N/download.jpg",
+    "category": "Headphones",
+    "price": 399,
+    "description": "Industry-leading noise canceling wireless headphones.",
+    "specification": [
+      "Adaptive Noise Cancellation",
+      "30-hour battery life",
+      "Multipoint connection",
+      "Touch controls",
+      "High-resolution audio"
+    ],
+    "availability": true,
+    "rating": 4.6
+  },
+  {
+    "id": 10,
+    "product_title": "Bose QuietComfort 45",
+    "product_image": "https://i.ibb.co.com/7dwzqbhf/download.jpg",
+    "category": "Headphones",
+    "price": 329,
+    "description": "Comfortable and powerful noise-canceling headphones.",
+    "specification": [
+      "TriPort acoustic architecture",
+      "24-hour battery life",
+      "Bluetooth 5.1",
+      "Active Noise Cancelling",
+      "Lightweight design"
+    ],
+    "availability": true,
+    "rating": 4.7
+  }
+]
