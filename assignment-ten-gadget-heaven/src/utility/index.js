@@ -56,11 +56,13 @@ const addToWishList = (wishProduct) => {
 };
 
 // removeTo WishList 
-const removeToWishList = () => {
-
+const removeToWishList = (id) => {
+    const removeWishList = getToWishList();
+    const remainingWishList = removeWishList.filter(item => item.id != id);
+    localStorage.setItem('wishListItem', JSON.stringify(remainingWishList));
 }
 
 
 
 
-export { addToCard, getToItem, addToWishList, getToWishList, removeCard };
+export { addToCard, getToItem, addToWishList, getToWishList, removeCard, removeToWishList };

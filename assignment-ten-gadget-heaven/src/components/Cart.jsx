@@ -59,7 +59,7 @@ const Cart = () => {
             </div>
             {
                 cart.map((item, index) => (
-                    <div key={index} className="hero">
+                    <div key={index} className="hero inline-block">
                         <div className="hero-content flex-col lg:flex-row  bg-[#fffff] rounded-xl shadow-lg relative">
                             <img
                                 src={item.product_image}

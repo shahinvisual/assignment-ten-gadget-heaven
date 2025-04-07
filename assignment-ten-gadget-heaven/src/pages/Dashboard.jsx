@@ -17,14 +17,14 @@ const Dashboard = () => {
                     <NavLink
                         key="1"
                         to="/dashboard/cart"
-                        className={({ isActive }) => isActive ? "btn btn-primary active" : "btn hover:btn-primary"}
+                        className={({ isActive }) => `inline-block min-w-32 rounded-full border px-6 py-3 text-center ${isActive ? "bg-white font-bold text-[#9538E2]" : "text-white"}`}
                     >
                         Cart
                     </NavLink>,
                     <NavLink
                         key="2"
                         to="/dashboard/wishList"
-                        className={({ isActive }) => isActive ? "btn btn-secondary active" : "btn hover:btn-secondary"}
+                        className={({ isActive }) => `inline-block min-w-32 rounded-full border px-6 py-3 text-center ${isActive ? "bg-white font-bold text-[#9538E2]" : "text-white"}`}
                     >
                         Wishlist
                     </NavLink>
@@ -35,7 +35,7 @@ const Dashboard = () => {
                     cart.map((item, index) => <Cart key={index} productItem={item} />)
                 }
             </div> */}
-            <Outlet/>
+            <Outlet />
         </div>
     );
 };
