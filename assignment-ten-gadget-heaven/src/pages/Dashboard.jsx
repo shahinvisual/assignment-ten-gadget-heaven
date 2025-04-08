@@ -1,6 +1,6 @@
-import React, { useEffect, useState } from 'react';
 import Banner from '../components/Banner';
 import { NavLink, Outlet } from 'react-router-dom';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 
 const Dashboard = () => {
     // const [cart, setCart] = useState([]);
@@ -10,6 +10,9 @@ const Dashboard = () => {
     // }, [])
     return (
         <div>
+            <Helmet>
+                <title>Dashboard | Gadget Heaven</title>
+            </Helmet>
             <Banner
                 title={'Dashboard'}
                 subtitle={'Explore the latest gadgets that will take your experience to the next level. From smart devices to the coolest accessories, we have it all!'}

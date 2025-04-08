@@ -3,6 +3,7 @@ import Footer from '../components/Footer';
 import toast, { Toaster } from 'react-hot-toast';
 import { Outlet } from 'react-router-dom';
 import Header from '../components/Header';
+import Navbar from '../components/Navbar';
 
 const MainLayout = () => {
     return (
