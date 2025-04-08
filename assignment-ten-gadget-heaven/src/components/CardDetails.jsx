@@ -9,15 +9,15 @@ const CardDetails = () => {
     const cardDetailsID = useLoaderData();
     const { cardId } = useParams();
     const [cardDetails, setCardDetails] = useState([]);
-    // console.log(cardDetails)
+
     useEffect(() => {
         const filterID = [...cardDetailsID].filter(item => item.id === JSON.parse(cardId));
         setCardDetails(filterID);
     }, [cardDetailsID, cardId])
-    // console.log(cardDetailsID, cardId)
+
     return (
         <>
-        <Helmet>
+            <Helmet>
                 <title>CardDetails | Gadget Heaven</title>
             </Helmet>
             <Banner

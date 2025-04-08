@@ -4,7 +4,7 @@ import { getToItem, removeCard } from '../utility';
 import { TbAdjustments } from "react-icons/tb";
 import { FcApproval } from "react-icons/fc";
 import { CiCircleRemove } from "react-icons/ci";
-import { Helmet, HelmetProvider } from 'react-helmet-async';
+import { Helmet } from 'react-helmet-async';
 
 
 const Cart = () => {
@@ -13,10 +13,10 @@ const Cart = () => {
     const [total, setTotal] = useState(0);
     const navigate = useNavigate();
     const { pathname } = useLocation();
-    console.log(pathname);
 
 
-    // console.log(cart)
+
+
     useEffect(() => {
         const cartData = getToItem();
         setCart(cartData);
@@ -26,13 +26,13 @@ const Cart = () => {
         const desPrice = [...cart].sort((a, b) => b.price - a.price);
         setCart(desPrice);
 
-        // console.log(desPrice)
+
     };
 
     const handleTotal = () => {
         const totalPrice = [...cart].reduce((a, b) => a + b.price, 0);
         setTotal(totalPrice);
-        // console.log(totalPrice);
+
     };
 
     const handlePurchase = () => {
@@ -47,12 +47,12 @@ const Cart = () => {
     };
 
 
-    // const { description, price, product_image, product_title } = productItem;
+
     return (
         <>
-        <Helmet>
-            <title>Cart | Gadget Heaven</title>
-        </Helmet>
+            <Helmet>
+                <title>Cart | Gadget Heaven</title>
+            </Helmet>
             <div className='flex justify-around my-12'>
                 <div className='font-bold text-xl'>Cart</div>
                 <div className='flex gap-5 items-center'>
@@ -82,7 +82,7 @@ const Cart = () => {
                     </div>
                 ))
             };
-            {/* Open the modal using document.getElementById('ID').showModal() method */}
+
             <dialog id="my_modal_5" className="modal modal-bottom sm:modal-middle">
                 <div className="modal-box flex flex-col justify-center items-center">
                     <div className='py-5'><FcApproval size={55} /></div>
@@ -91,7 +91,7 @@ const Cart = () => {
                     <p>Total:{total}$</p>
                     <div className="modal-action">
                         <form method="dialog">
-                            {/* if there is a button in form, it will close the modal */}
+
                             <button onClick={() => navigate("/")} className="btn w-full">Close</button>
                         </form>
                     </div>

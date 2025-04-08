@@ -22,7 +22,7 @@ const addToCard = (product) => {
     const cardStr = JSON.stringify(addFavorite)
     const addCard = localStorage.setItem('cardItem', cardStr);
     toast.success('Successfully created!');
-    // console.log(addCard);
+  
 };
 
 // Remove Card LocalStorage
@@ -60,6 +60,7 @@ const removeToWishList = (id) => {
     const removeWishList = getToWishList();
     const remainingWishList = removeWishList.filter(item => item.id != id);
     localStorage.setItem('wishListItem', JSON.stringify(remainingWishList));
+    toast.success('Successfully removed!');
 }
 
 

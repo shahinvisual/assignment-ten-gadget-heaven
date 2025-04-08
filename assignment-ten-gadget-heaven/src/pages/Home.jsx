@@ -9,7 +9,7 @@ import Header from '../components/Header';
 
 const Home = () => {
     const categoriesData = useLoaderData();
-    // console.log(categoriesData)
+   
     return (
         <div className='relative'>
             <Helmet>

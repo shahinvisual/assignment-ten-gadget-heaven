@@ -4,7 +4,7 @@ import { CiHeart } from "react-icons/ci";
 import { addToCard, addToWishList } from '../utility';
 
 const ProductDetails = ({ product }) => {
-    // console.log(product)
+
 
     const {
         id,
@@ -29,7 +29,7 @@ const ProductDetails = ({ product }) => {
     };
     return (
         <div className="hero bg-base-200 min-h-screen">
-            <div className="hero-content flex-col lg:flex-row">
+            <div className="hero-content flex-col lg:flex-row bg-[#ffffff] py-16 px-12 rounded-xl">
                 <img
                     src={product_image}
                     className="max-w-sm rounded-lg shadow-2xl" />
