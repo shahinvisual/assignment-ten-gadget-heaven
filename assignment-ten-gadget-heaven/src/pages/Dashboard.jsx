@@ -33,12 +33,16 @@ const Dashboard = () => {
                     </NavLink>
                 ]}
             />
+
             {/* <div className='flex flex-col gap-5 my-12'>
                 {
                     cart.map((item, index) => <Cart key={index} productItem={item} />)
                 }
             </div> */}
             <Outlet />
+            <div className='py-5'><h1 className='font-bold text-2xl text-center'>Gadget Heaven
+            </h1>
+                <h1 className=' text-center'>Leading the way in cutting-edge technology and innovation.</h1></div>
         </div>
     );
 };

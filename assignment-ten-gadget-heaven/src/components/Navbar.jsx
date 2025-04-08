@@ -16,6 +16,7 @@ const Navbar = () => {
                     <li><NavLink className={({ isActive }) => `font-medium ${isActive ? 'bg-[rgba(11,11,11,0.1)] py-2 px-4  rounded-lg text-black' : 'text-black'}`} to={'/'}>Home</NavLink></li>
                     <li><NavLink className={({ isActive }) => `font-medium ${isActive ? 'bg-[rgba(11,11,11,0.1)] py-2 px-4  rounded-lg text-black' : 'text-black'}`} to={'/statistics'}>Statistics</NavLink></li>
                     <li><NavLink className={({ isActive }) => `font-medium ${isActive ? 'bg-[rgba(11,11,11,0.1)] py-2 px-4  rounded-lg text-black' : 'text-black'}`} to={'/dashboard'}>Dashboard</NavLink></li>
+                    <li><NavLink className={({ isActive }) => `font-medium ${isActive ? 'bg-[rgba(11,11,11,0.1)] py-2 px-4  rounded-lg text-black' : 'text-black'}`} to={'/support'}>Support</NavLink></li>
                 </ul>
             </div>
             <div className="navbar-end flex gap-3">

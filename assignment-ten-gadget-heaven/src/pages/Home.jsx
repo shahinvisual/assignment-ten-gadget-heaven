@@ -16,6 +16,9 @@ const Home = () => {
                 <title>Gadget Heaven</title>
             </Helmet>
             {/* Banner Section */}
+            <div className='flex-col'>
+                <h1 className='font-bold text-5xl text-center pb-12'>Explore Cutting-Edge Gadgets</h1>
+            </div>
             <div className="flex flex-col gap-6 sm:flex-row">
                 {/* Categories Section.... */}
                 <div>

@@ -7,12 +7,15 @@ import GadgetsCards from "../components/GadgetsCards";
 import CardDetails from "../components/CardDetails";
 import WishList from "../components/WishList";
 import Cart from "../components/Cart";
+import ErrorPage from "../components/ErrorPage";
+import Support from "../components/support";
 
 
 const routes = createBrowserRouter([
     {
         path: '/',
         element: <MainLayout />,
+        errorElement:<ErrorPage/>,
         children: [
             {
                 path: '/',
@@ -40,6 +43,11 @@ const routes = createBrowserRouter([
                 path: '/statistics',
                 element: <Statistics />
             },
+            {
+                path: '/support',
+                element: <Support />
+            },
+
             {
                 path: '/dashboard',
                 element: <Dashboard />,

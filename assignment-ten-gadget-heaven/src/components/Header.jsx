@@ -28,7 +28,7 @@ const Header = () => {
                                 />
                             </div>
                         </header>
-                        <div className="w-[650px] -top-36 -right-96 relative bg-[rgba(211,211,211,0.5)] border-2 p-5 rounded-xl backdrop-blur-xl">
+                        <div className="w-[750px] -top-36 -right-96 relative bg-[rgba(211,211,211,0.5)] border-2 p-5 rounded-xl backdrop-blur-xl">
                             <div className="">
                                 <img className=" rounded-xl" src={img} alt="" />
                             </div>
